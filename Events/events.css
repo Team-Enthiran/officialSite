@@ -1,0 +1,157 @@
+body,html{
+    margin:0;
+    /* overflow-x: hidden; */
+}
+/* 
+.eventRepresentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.eventName{
+    transform: rotateZ(-90deg) translateY(100px);
+    font-size: 40px;
+    font-family: 'Raleway';
+}
+
+.eventCategories{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.category{
+    width:250px;
+    height:250px;
+    background-color: brown;
+    margin-right: 30px;
+    margin-bottom:30px;
+} */
+
+
+
+
+.eventCategory{
+    background-color: black;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.eventC{
+    max-width: 1140px;
+}
+
+.eventHead{
+    font-family: 'Raleway';
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.eventStatus{
+    display: flex;
+    justify-content:center;
+}
+
+.statusButton{
+    all:unset;
+    border: 2px solid white;
+    text-align: center;
+    background: transparent;
+    color:white;
+    cursor: pointer;
+    font-family: 'Raleway';
+    width:100px;
+    height:35px;
+    margin: 10px;
+}
+
+.statusButton:active ,.statusButton:hover{
+    background: white;
+    color:black;
+}
+
+
+.eventsList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.event{
+    width:350px;
+    height:225px;
+    margin:15px;    
+    color:black;
+    background-color: yellow;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.eventN{
+    width:inherit;
+    position: absolute;
+    bottom:0px;
+    height:30px;
+    text-align: center;
+    line-height: 2;
+    background-color: white;
+}
+
+
+
+
+/* .eventDescription{
+    background-color: black;
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.eventD{
+    max-width: 1140px;
+    color:white;
+    height:100px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.eventIntro{
+    display: flex;
+    justify-content: center;
+}
+
+.eventLeft{
+    float: left;
+    width: 730px;
+    font-family: 'Raleway';
+}
+
+.eventTags>span{
+    font-size: 14px;
+}
+
+.statusButton{
+    all:unset;
+    border: 2px solid white;
+    text-align: center;
+    background: transparent;
+    color:white;
+    cursor: pointer;
+    font-family: 'Raleway';
+    width:200px;
+    height:30px;
+    margin: 10px;
+    margin-top:50px;
+}
+
+.statusButton:active ,.statusButton:hover{
+    background: white;
+    color:black;
+} */

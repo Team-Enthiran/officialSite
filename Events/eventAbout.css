@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+.eventDescription{
+    background-color: black;
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.eventD{
+    max-width: 1140px;
+    /* background-color: blue; */
+    color:white;
+    height:100px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.eventIntro{
+    display: flex;
+    justify-content: center;
+}
+
+.eventLeft{
+    float: left;
+    width: 730px;
+    font-family: 'Raleway';
+}
+
+.eventTags>span{
+    font-size: 14px;
+}
+
+.statusButton{
+    all:unset;
+    border: 2px solid white;
+    text-align: center;
+    background: transparent;
+    color:white;
+    cursor: pointer;
+    font-family: 'Raleway';
+    width:200px;
+    height:30px;
+    margin: 10px;
+    margin-top:50px;
+}
+
+.statusButton:active ,.statusButton:hover{
+    background: white;
+    color:black;
+}
